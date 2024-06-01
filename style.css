@@ -1,0 +1,59 @@
+html {
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(121, 60, 121), rgb(56, 43, 240));
+}
+
+h1 {
+    font-size: 3em;
+    color: white;
+}
+
+label {
+    font-size: 1.5em;
+}
+
+.content {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    margin: auto;
+    width: 50%;
+}
+
+input[type="number"] {
+    height: 25px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 1em;
+}
+
+input[type="radio"] {
+    height: 2em;
+    cursor: pointer;
+}
+
+button {
+    background-color: hsl(162, 46%, 53%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.4em;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: hsl(162, 41%, 52%);
+}
+
+#error {
+    color: red;
+}
